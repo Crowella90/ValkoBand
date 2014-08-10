@@ -2,7 +2,6 @@
 body
 { 
 	font-size: 0.75em !important;
-	background: url('../img/backgrounds/bg_1.jpg') #333 center no-repeat;
 }
 
 
@@ -81,4 +80,5 @@ footer
 #broadcast
 {
 	font-size: 0.8em !important;
+	margin-bottom: 10px !important;
 }
