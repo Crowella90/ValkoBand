@@ -9,11 +9,20 @@ body
 	background: url('../img/backgrounds/bg_1.jpg') #333 center no-repeat fixed;
 	margin: 0;
 	padding: 0;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 img	
 {
 	border: 0;
+}
+
+.alt_logo
+{
+	display: none;
 }
 
 /* Font Headers */

@@ -4,6 +4,14 @@ body
 	font-size: 0.75em !important;
 }
 
+.main_logo
+{
+	display: none;
+}
+.alt_logo
+{
+	display: inherit;
+}
 
 #contain
 {
