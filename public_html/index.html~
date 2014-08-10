@@ -27,6 +27,12 @@
 		<!-- Container-->
 		<div id="contain">
 	
+		<!-- Display message at top! -->
+		<div id="broadcast">
+		This site is not live or active and is subject to change.
+		It may not render properly on mobile devices yet.
+		</div>
+
 			<!-- Three column layout.
 				Left = Menu
 				Page = Center + Right Columns

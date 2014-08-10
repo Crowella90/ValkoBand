@@ -1,12 +1,14 @@
 /* Page elements */
 body
 {
-	color: #fff; 
+	color: #ccc; 
 	font-family: 'Liberation Sans'; 
 	font-size: 0.75em; 
 	letter-spacing: 0.1em; 
 	text-align: center; 
 	background: url('../img/backgrounds/bg_1.jpg') #333 center no-repeat fixed;
+	margin: 0;
+	padding: 0;
 }
 
 img	
@@ -55,7 +57,7 @@ ul li
 
 /* Links */
 a
-{color: #aaf; text-decoration: none;}
+{color: #333; text-decoration: none;}
 a:hover
 {color: #fff;}
 
@@ -124,3 +126,14 @@ a:hover
 /* Page footer */
 footer
 {border-left: 3px solid #daeeb3; padding-left: 5px; margin-top: 10px; font-size: 0.8em; color: #aaa;}
+
+#broadcast
+{
+	background: #ff0;
+	color: #000;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 25px;
+}
