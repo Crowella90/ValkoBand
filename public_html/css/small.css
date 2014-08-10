@@ -1,0 +1,45 @@
+/* Page elements */
+body
+{
+	font-size: 0.7em !important; 
+}
+
+			
+/* Left Column */
+#left_col
+{
+	position: fixed;
+	width: 225px !important;
+	background: rgba(0,0,0,0.50);
+	float: left;
+}
+
+#left_col img
+{
+	width: 100% !important;
+}
+
+/* Page column */
+#page_col
+{
+	margin-left: 250px;
+}
+
+/* Center column */
+#center_col
+{
+	margin-right: 250px !important;
+}
+
+/* Right Column */
+#right_col
+{
+	width: 225px !important;
+	margin-left: -225px !important;
+}
+
+
+/* Page footer */
+footer
+{border-left: 3px solid #daeeb3; padding-left: 5px; margin-top: 10px; font-size: 0.8em; color: #aaa;}
+

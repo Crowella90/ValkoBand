@@ -1,0 +1,84 @@
+/* Page elements */
+body
+{ 
+	font-size: 0.75em !important;
+	background: url('../img/backgrounds/bg_1.jpg') #333 center no-repeat;
+}
+
+
+#contain
+{
+	width: 100% !important;
+}
+
+#left_col
+{
+	position: relative !important;
+	width: 100% !important;
+	float: none !important;
+}
+
+
+/* Image lists */
+ul	
+{
+	padding: 10px !important; 
+	padding-top: 0px !important;
+	text-align: center !important;
+}
+ul li	
+{
+	font-size: 1.5em !important;
+	display: inline !important;
+	padding: 5px;
+}
+
+h2,h5
+{
+	margin-top: 10px !important;
+}
+
+/* Page container */
+#contain
+{width: 90% !important;}
+			
+
+/* Page column */
+#page_col
+{
+	float: none !important;
+	margin-left: 0px !important;
+}
+
+/* Center column */
+#center_col
+{
+	float: left;
+	display: inline;
+	margin-right: 275px;
+}
+
+#center_col .content_box
+{
+	margin-top: 10px !important;
+}
+
+/* Right Column */
+#right_col
+{
+	margin-top: -10px !important; /* cheap fix */
+}
+
+#right_col .content_box
+{
+	margin-top: 10px !important;
+}
+
+/* Page footer */
+footer
+{border-left: 3px solid #daeeb3; padding-left: 5px; margin-top: 10px; font-size: 0.8em; color: #aaa;}
+
+#broadcast
+{
+	font-size: 0.8em !important;
+}

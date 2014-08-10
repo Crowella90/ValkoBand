@@ -13,11 +13,16 @@
 		<meta charset="utf-8"/>
 
 		<!-- Mobile zoom set -->
-		<!-- mobile place holder <meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes"/> -->
+		<meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes"/>
 
 		<!-- Style sheets -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- mobile place holder <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px),only screen and (max-device-width: 480px)" href="mobile.css"> -->
+		<!-- Smaller res screens -->
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1280px),only screen and (max-device-width: 1280px)" href="css/small.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 850px),only screen and (max-device-width: 850px)" href="css/smaller.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px),only screen and (max-device-width: 480px)" href="css/mobile.css">
+		<!-- Height sidebar fix -->
+		<link rel="stylesheet" type="text/css" media="only screen and (max-height: 640px),only screen and (max-device-height: 640px)" href="css/small.css">
 		
 	</head>
 
@@ -31,6 +36,7 @@
 		<div id="broadcast">
 		This site is not live or active and is subject to change.
 		It may not render properly on mobile devices yet.
+		<br>The project can be followed at <a href="https://github.com/Crowella90/ValkoBand">https://github.com/Crowella90/ValkoBand</a>
 		</div>
 
 			<!-- Three column layout.
@@ -93,6 +99,8 @@
 
 				<!-- Right Column (sidebar) -->
 				<div id="right_col">
+					<!-- Display title (only for 2 column displays!) -->
+					<h5>KEEP UPDATED</h5>
 					<!-- Twitter Box -->
 					<div class="content_box">
 						<h3>TWITTER</h3>

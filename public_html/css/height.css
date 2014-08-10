@@ -1,0 +1,6 @@
+/* Column scroll fix! */
+/* Left Column */
+#left_col, #right_col
+{
+	position: inherit;
+}

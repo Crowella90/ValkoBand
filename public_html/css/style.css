@@ -9,6 +9,10 @@ body
 	background: url('../img/backgrounds/bg_1.jpg') #333 center no-repeat fixed;
 	margin: 0;
 	padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 img	
@@ -17,15 +21,15 @@ img
 }
 
 /* Font Headers */
-h1
+h1, h5
 {
-	height: 0;
 	display: none;
 }
 
+
 h1,h2,h3,h4,h5,h6
 {font-weight: lighter;padding: 0;margin: 0; font-family: 'Carlito'; letter-spacing: 0.2em;}
-h2	
+h2, h5	
 {
 	font-size: 2.5em;
 	letter-spacing: 0.2em;
@@ -39,6 +43,7 @@ h3
 	font-size: 2em; 
 	line-height: 1.5em;
 }
+
 
 /* Image lists */
 ul	

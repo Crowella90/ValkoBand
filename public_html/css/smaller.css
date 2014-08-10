@@ -1,0 +1,86 @@
+/* Page elements */
+body
+{
+	font-size: 0.7em !important; 
+}
+
+
+/* Image lists */
+ul li	
+{
+	font-size: 2.0em !important;
+}
+
+
+/* Page container */
+#contain
+{min-width: 90% !important;}
+
+h2, h5	
+{
+	font-size: 1.8em !important;
+}
+	
+h3
+{
+	font-size: 1.35em !important; 
+}
+			
+
+/* Left Column */
+#left_col
+{
+	width: 175px !important;
+}
+
+#left_col img
+{
+	width: 100%;
+}
+
+
+/* Page column */
+#page_col
+{
+	float: inherit !important;
+	margin-left: 200px; !important;
+	min-width: 0px !important;
+}
+
+/* Center column */
+#center_col
+{
+	float: inherit !important;
+	margin-right: 0px !important;
+}
+
+/* Right Column */
+#right_col
+{
+	position: relative !important;
+	width: 100% !important;
+	float: none !important;
+	margin-left: 0px !important;
+	margin-top: 0px !important; /* cheap fix */
+}
+
+h5
+{
+	display: block;
+	margin-top: 25px;
+}
+
+/* Page footer */
+footer
+{border-left: 3px solid #daeeb3; padding-left: 5px; margin-top: 10px; font-size: 0.8em; color: #aaa;}
+
+#broadcast
+{
+	background: #ff0;
+	color: #000;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 25px;
+}
